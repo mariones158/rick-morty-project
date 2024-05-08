@@ -35,7 +35,10 @@ const handleSubmit = e =>{
     </div>
   
     { hasError ? (
-      <h2>Hey you must provide and id 1 to 126</h2>
+     <div className='error__container'>
+      <div className='image__error'></div>
+      <h2 className='text__error'>❌ Hey, you must provide an identification number from 1 to 126. ☢️</h2>
+      </div>
       ) : (
         <>
           <LocationInfo location={location} />

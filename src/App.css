@@ -14,6 +14,37 @@
     height: 25em;
 }
 
+
+
+
+
+.error__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    color: white;
+    padding: 20px; 
+    margin-bottom: 50px;
+}
+
+.image__error {
+    background-image: url(./assets/images/morty-.png);
+    background-size: cover;
+    height: 25em;
+    width: 25em;
+    overflow: hidden;
+}
+
+.text__error {
+    padding: 20px; 
+    margin-top: 50px; 
+}
+
+
+
+
+
 .box__items__child{
     display: flex;
     justify-content: center;
