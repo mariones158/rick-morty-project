@@ -1,0 +1,69 @@
+
+.card__container{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+    padding-bottom: 5%;
+}
+
+
+.box__image{
+    background-image: url(./assets/images/rick-and-morty2.png);
+    background-size: cover;
+    height: 25em;
+}
+
+.box__items__child{
+    display: flex;
+    justify-content: center;
+    height: 8em;
+    padding: auto;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+
+.search__form{
+    padding-top: 1em;
+    align-content: space-between;
+}
+
+.input__space {
+    width: 340px;
+    height: 35px;
+    padding-right: 10px;
+    border-radius: 8px;
+    margin-right: 10px;
+    text-indent: 10px;
+    border: 1px solid transparent;  
+    transition: border-color 0.3s;   
+}
+
+.input__space:focus {
+    outline: none; 
+    box-shadow: inset 0 0 0 1px #999999; 
+    border-color: transparent;
+}
+
+.input__space:hover {
+    outline: 2px solid #2fff39; 
+}
+
+
+
+
+.button__style {
+    width: 125px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: #65B741; 
+    font-weight: 600;
+    color: white;
+    transition: background-color 0.3s; 
+}
+
+.button__style:hover {
+    background-color: #1A5D1A; 
+}
